@@ -1,4 +1,4 @@
-#Tail PHP error logs in Docker
+# Tail PHP error logs in Docker
 ---
 
 ## FIRST - Docker PHP Setup!
