@@ -1,4 +1,4 @@
-# Blogs
+# Blog Posts
 ---
 
  - [Test Post](#/blogpost/testpost)
