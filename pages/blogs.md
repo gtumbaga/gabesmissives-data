@@ -1,5 +1,6 @@
 # Blog Posts
 ---
 
+ - [Tail PHP Error Logs in Docker](#/blogpost/tail-php-error-logs-in-docker)
  - [Test Post](#/blogpost/testpost)
  - [Test Post 2](#/blogpost/testpost2)
