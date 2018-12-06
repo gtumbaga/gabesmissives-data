@@ -39,7 +39,9 @@ As of writing this article, this worked for me, and I was able to proceed workin
  - bullet
  - points
  
- this | is | a | test
- this | is | a | test
- this | is | a | test
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
  
