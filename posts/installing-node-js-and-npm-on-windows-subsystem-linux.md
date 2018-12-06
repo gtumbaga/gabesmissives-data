@@ -34,3 +34,12 @@ Here is the actual github page for nvm itself, if you're curious:
 
 As of writing this article, this worked for me, and I was able to proceed working on my angular project originally started on my Macbook Pro.
 
+
+ - add
+ - bullet
+ - points
+ 
+ this | is | a | test
+ this | is | a | test
+ this | is | a | test
+ 
