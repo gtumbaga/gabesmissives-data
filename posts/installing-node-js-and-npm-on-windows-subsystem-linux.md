@@ -2,7 +2,7 @@
 ---
 
 ### UPDATE
-<aside class="alert alert-danger">
+<aside class="alert alert-danger" style="font-size: 14px">
 After having installed everything in this article, WSL Ubuntu was running mad slow.  A quick google will show a bunch of people complaining about slow I/O problems with WSL. I have currently switched back to using Cygwin, which has been the best linux-style experience for me in windows for years.  I wanted to give WSL a chance, but it sucks to much...
 
  - Also, WSL uses the windows CMD style color chooser, which lets you choose the 16 basic linux colors, without letting you choose a seperate BG color and FG color separate from the 16 ansi colors. Cygwin lets you customize the colors using a config file ".minttyrc".
