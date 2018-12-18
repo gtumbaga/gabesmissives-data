@@ -25,7 +25,7 @@ $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh |
 // restart bash
 $ nvm install node
 ```
-(note, for the 1st line to create a ```.bashrc``` file, mine already existed, so I skipped that line).
+(note, for the 1st line to create a `.bashrc` file, mine already existed, so I skipped that line).
 
 These are the lines that it adds into your .bashrc file:
 ```
@@ -34,7 +34,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 ```
 
-(another note, on a ubuntu 18 machine, for some reason the lines that were inserted into the .bashrc file weren't working, so I copy/pasted them out of ```.bashrc``` into ```.bash_profile``` and things worked correctly from there.
+(another note, on a ubuntu 18 machine, for some reason the lines that were inserted into the .bashrc file weren't working, so I copy/pasted them out of `.bashrc` into `.bash_profile` and things worked correctly from there.
 
 It's a simple curl command that will download and run a bash script that will install NVM (Node Version Manager), and then you use NVM to install the latest and greatest node and npm.
 
