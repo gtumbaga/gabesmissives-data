@@ -2,11 +2,12 @@
 ---
 
 ### UPDATE
-<aside class="alert alert-primary">
 I found a program called [https://conemu.github.io/](conEmu) that acts as a front-end terminal that sits on top of what ever shells you want to use.  It let me use it as a front-end for WSL, giving me the ability to fix a few problems, like using my custom color theme, giving me tabs for multiple ubuntu windows, and TMUX's borders being drawn incorrectly.
  
  I am now currently using an XPS 13 as my main dev machine, and am currently very happy with the workflow of being able to use WSL Ubuntu, along with the extended functionality that ConEmu is providing me!
-</aside>
+
+---
+
 
 ### Original Post
 Today I ran through quite a bit of trouble getting the most current versiosn of nodejs and npm installed in my Ubuntu 18 (on windows 10).
