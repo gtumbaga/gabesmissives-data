@@ -2,20 +2,14 @@
 ---
 
 ### UPDATE
-<aside class="alert alert-danger" style="font-size: 14px">
-After having installed everything in this article, WSL Ubuntu was running mad slow.  A quick google will show a bunch of people complaining about slow I/O problems with WSL. I have currently switched back to using Cygwin, which has been the best linux-style experience for me in windows for years.  I wanted to give WSL a chance, but it sucks to much...
-
- - Also, WSL uses the windows CMD style color chooser, which lets you choose the 16 basic linux colors, without letting you choose a seperate BG color and FG color separate from the 16 ansi colors. Cygwin lets you customize the colors using a config file ".minttyrc".
-
- - Also #2, WSL Ubuntu was getting VIM's colors wrong unless I used TMUX, which I am assuming forces xterm-16 or something.
-
- - Also #3, Tmux's border that it draws between panes was being dispaled as a bunch of squares (the rectangle character that shows up if a character isn't supported).
-
-This was just way too many problems to deal with, that don't exist in Cygwin.
+<aside class="alert alert-primary">
+I found a program called [https://conemu.github.io/](conEmu) that acts as a front-end terminal that sits on top of what ever shells you want to use.  It let me use it as a front-end for WSL, giving me the ability to fix a few problems, like using my custom color theme, giving me tabs for multiple ubuntu windows, and TMUX's borders being drawn incorrectly.
+ 
+ I am now currently using an XPS 13 as my main dev machine, and am currently very happy with the workflow of being able to use WSL Ubuntu, along with the extended functionality that ConEmu is providing me!
 </aside>
 
 ### Original Post
-Today I ran through quite a bit of trouble getting the most current versiosn of nodejs and npm installed in my Ubuntu 16 (on windows 10).
+Today I ran through quite a bit of trouble getting the most current versiosn of nodejs and npm installed in my Ubuntu 18 (on windows 10).
 
 It turns out, the normal way of using apt-get to install it, installs a pretty old version.  The workaround, I found on a [github gist here](https://gist.github.com/micahgodbolt/8b9a338c8bab7bc147975646ea20826c).
 
