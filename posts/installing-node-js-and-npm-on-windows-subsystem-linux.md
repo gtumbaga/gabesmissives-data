@@ -33,7 +33,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 ```
 
-(another note, on a ubuntu 18 machine, for some reason the lines that were inserted into the .bashrc file weren't working, so I copy/pasted them out of `.bashrc` into `.bash_profile` and things worked correctly from there.
+(another note, on a ubuntu 18 machine, for some reason the lines that were inserted into the .bashrc file weren't working, so I copy/pasted them out of `.bashrc` into `.bash_profile` and things worked correctly from there.)
+
+(note again, it seems these additional lines added to your startup makes bash start significantly slower... So what I have done is commented them out, and will only re-enable them when I need to use NVM, and will comment them back out when I'm done with NVM.)
 
 It's a simple curl command that will download and run a bash script that will install NVM (Node Version Manager), and then you use NVM to install the latest and greatest node and npm.
 
