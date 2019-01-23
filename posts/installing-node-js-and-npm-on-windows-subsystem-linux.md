@@ -5,6 +5,10 @@
 I found a program called [ConEmu](https://conemu.github.io/) that acts as a front-end terminal that sits on top of what ever shells you want to use.  It let me use it as a front-end for WSL, giving me the ability to fix a few problems, like using my custom color theme, giving me tabs for multiple ubuntu windows, and TMUX's borders being drawn incorrectly.
  
  I am now currently using an XPS 13 as my main dev machine, and am currently very happy with the workflow of being able to use WSL Ubuntu, along with the extended functionality that ConEmu is providing me, as well as having the super portability of a small/light laptop.
+ 
+ ### UPDATE 2
+ So after extensive use of conEmu as a front face for Ubuntu WSL, you can notice a refresh delay.  Almost as though you can tell ConEmu is connected to Ubuntu via wslbridge, and you can feel the latency from that.
+ I found a way to get past this though.  So, rather than have conEmu open legit ubuntu tabs `{Bash::bash}`, I instead am having conEmu open a regular `cmd.exe` window (beause it runs faster), and then am starting `bash.exe` within that window, effectively still getting my Ubuntu WSL.  With the `/C` switch, you can tell cmd.exe to run a command upon starting up.  So, I have created a new custom 'task' on conEmu (a new shell choice pretty much), and told it to start this as my shell: `cmd.exe /C bash.exe`, and made it my default startup shell when I open a new tab.  The screen updates/refresh rate/what ever you might want to call it - seems to be running noticeably faster.
 
 ---
 
